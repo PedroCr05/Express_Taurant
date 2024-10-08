@@ -83,20 +83,19 @@ app.get(`/appetizers`, (req, res) => {
           `1/2 teaspoon yellow mustard`,
           `Salt and fresh ground black pepper`,
         ],
-        recipeDirections: [
-          `Cooked Eggs`,
-          [
+        recipeDirections:
+        {
+            cookedEggs: [
             `Place the eggs in a single layer in a saucepan and cover with cold water by 1 ½ inches. Heat over high heat until the water comes to a rolling boil, cover the saucepan with a lid, cook for 30 seconds then remove completely from the heat and let stand for 12 minutes. (This can range from 12 to 14 minutes, depending on the size of your eggs).`,
-            `Prepare a bowl of ice water. Transfer eggs with a slotted spoon to the ice water and leave for 5 minutes. Crack egg shells and carefully peel them away. If the shells are not easily peeling away from the eggs, place them back into the ice water and try again in 5 minutes.`,
+            `Prepare a bowl of ice water. Transfer eggs with a slotted spoon to the ice water and leave for 5 minutes. Crack egg shells and carefully peel them away. If the shells are not easily peeling away from the eggs, place them back into the ice water and try again in 5 minutes.`
           ],
-          `Deviled Eggs`,
-          [
+            deviledEggs:[
             `Gently dry eggs then slice in half, lengthwise. Remove the yolks and add to a medium bowl then arrange the whites on a serving platter.`,
             `Mash the yolks into a fine, powdery paste. Stir in the mayonnaise, vinegar, and mustard. Season with salt and a few grinds of black pepper. Stir vigorously until smooth.`,
             `Use a small cookie scoop or spoon to evenly distribute the egg yolk filling into the egg whites. (You can also cut a corner from a resealable plastic bag, add the egg yolk filling then use it to pipe into the egg white halves).`,
-            `Finish with a sprinkle of paprika (classic) or with your favorite toppings (see below for suggestions). We personally like a sprinkle of flaky sea salt or a squirt of Sriracha.`,
-          ],
-        ],
+            `Finish with a sprinkle of paprika (classic) or with your favorite toppings (see below for suggestions). We personally like a sprinkle of flaky sea salt or a squirt of Sriracha.`
+          ]
+        },
         ingredientsTips: `Optional toppings and ingredients: flaky sea salt, smoked or sweet paprika, cooked bacon, pickles, pickled jalapeños, pickled onions, Sriracha, crumbled feta cheese, or fresh herbs — chives or parsley are nice.`,
         nutritionPerServing: [
           `Serving Size 1 deviled egg half`,
